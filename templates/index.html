@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Youtube Downloader</title>
+  <meta charset="UTF-8">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.25.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class="hero bg-base-200" style="height: 878px;">
+    <div class="text-center hero-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">
+          Youtube Downloader
+        </h1>
+
+
+
+        <form action="/download" method="post">
+          <div class="form-control">
+
+            <textarea class="textarea h-15 textarea-bordered textarea-primary" placeholder="Youtube Link"
+              name="url"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 40px;">Click to Download</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="p-4 footer bg-base-300 text-base-content footer-center">
+    <div>
+      <p>Made by Sumit Dhiman</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
